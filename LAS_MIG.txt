@@ -1,0 +1,11 @@
+FOKUSKOMPISEN 0.6 – INSTALLERBAR WEBBAPP
+
+1. Packa upp ZIP-filen.
+2. Ladda upp innehållet i mappen (index.html, sw.js, manifest.webmanifest och icons) till en webbplats med HTTPS, exempelvis GitHub Pages.
+3. Öppna webbplatsens adress i mobilen.
+4. iPhone: Öppna i Safari, välj Dela > Lägg till på hemskärmen.
+5. Android: Öppna i Chrome och välj Installera app eller Lägg till på startskärmen från menyn.
+
+VIKTIGT: Det räcker inte att öppna index.html som lokal fil för att få PWA-installation och offline-cache. Det kräver HTTPS-publicering (localhost fungerar för utveckling). Grundfunktionerna fungerar offline efter första lyckade laddningen via HTTPS. Uppgifterna lagras lokalt på respektive enhet och synkroniseras inte mellan mobiler.
+
+Detta är en regelbaserad prototyp, inte en AI-tjänst.
